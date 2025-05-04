@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.env
+.venv/
+venv/
+*.sqlite3
+
+# Django
+db.sqlite3
+*.log
+staticfiles/
+media/
+
+# VS Code
+.vscode/
+
+# Node/Vue
+node_modules/
+dist/
+*.log
+
+# npm/yarn lock files (optional if you want consistent installs)
+package-lock.json
+yarn.lock
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Git
+.git/
+
+# Coverage / testing
+htmlcov/
+.coverage
+.tox/
+.pytest_cache/
