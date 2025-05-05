@@ -95,12 +95,18 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'ecommerce_db',
+<<<<<<< Updated upstream
         'USER': 'root',
         'PASSWORD': 'Shannyn29',
+=======
+        'USER': 'root', 
+        'PASSWORD': '1234567890',
+>>>>>>> Stashed changes
         'HOST': 'localhost',
         'PORT': '3306',
     }
 }
+
 
 
 # Password validation
