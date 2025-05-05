@@ -11,6 +11,8 @@ import MonitorProducts from '../components/AdminProductInventory.vue'
 import AddProduct from '../components/AddProduct.vue'
 import AdminProductView from '../components/AdminProductView.vue'
 import AdminTransactionHistory from '../components/AdminTransactionHistory.vue'
+import AdminProductManagement from '@/components/AdminProductManagement.vue';
+import ShoppingCart from '@/components/ShoppingCart.vue';
 
 const routes = [
   { path: '/', component: HomeView },
